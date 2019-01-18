@@ -1,0 +1,29 @@
+{
+  "Usuarios": [
+    {
+      "id": 1,
+      "login": "usuario@email.com",
+      "senha": "123456"
+    },
+    {
+      "id": 2,
+      "login": "usuario2@email.com",
+      "senha": "123456"
+    },
+    {
+      "id": 3,
+      "login": "usuario3@email.com",
+      "senha": "123456"
+    },
+    {
+      "login": "usuario4@email.com",
+      "senha": "123456",
+      "id": 4
+    },
+    {
+      "login": "usuarioYYYY@email.com",
+      "senha": "123456",
+      "id": 5
+    }
+  ]
+}

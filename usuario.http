@@ -1,0 +1,29 @@
+http://localhost:3000/Usuarios
+
+###
+
+POST http://localhost:3000/Usuarios HTTP/1.1
+content-type: application/json
+
+{
+      "login": "usuarioYYYY@email.com",
+      "senha": "123456"
+}
+
+###
+
+DELETE  http://localhost:3000/Usuarios/5 HTTP/1.1
+
+###
+
+PUT http://localhost:3000/Usuarios/4 HTTP/1.1
+content-type: application/json
+
+{
+      "login": "usuario4@email.com",
+      "senha": "123456"
+}
+
+###
+
+GET http://localhost:3000/Usuarios/1 HTTP/1.1
